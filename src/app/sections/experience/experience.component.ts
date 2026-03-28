@@ -58,8 +58,8 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
       display: inline-block;
       font-size: 0.8rem;
       font-weight: 600;
-      color: var(--primary-400);
-      background: rgba(37, 99, 235, 0.15);
+      color: #e2e8f0;
+      background: rgba(100, 116, 139, 0.25);
       padding: 4px 12px;
       border-radius: 20px;
       margin-bottom: 12px;
@@ -76,7 +76,7 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
       display: inline-block;
       font-size: 0.9rem;
       font-weight: 500;
-      color: var(--accent-400);
+      color: #cbd5e1;
       margin-bottom: 12px;
     }
 
@@ -94,10 +94,10 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--primary-500), var(--primary-700));
+      background: linear-gradient(135deg, #cbd5e1, #475569);
       color: #fff;
       font-size: 1rem;
-      box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+      box-shadow: 0 0 22px rgba(203, 213, 225, 0.35);
     }
 
     /* Mobile: stack timeline vertically */

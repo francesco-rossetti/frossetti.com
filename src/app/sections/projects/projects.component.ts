@@ -85,11 +85,12 @@ import { TagModule } from 'primeng/tag';
 
     .project-card__icon {
       font-size: 2rem;
-      color: #a78bfa;
+      color: #f1f5f9;
+      text-shadow: 0 0 12px rgba(226, 232, 240, 0.2);
     }
 
     .project-card__ext-link {
-      color: #64748b;
+      color: #cbd5e1;
       font-size: 1.1rem;
       transition: color 0.2s;
       display: flex;
@@ -102,8 +103,9 @@ import { TagModule } from 'primeng/tag';
     }
 
     .project-card__ext-link:hover {
-      color: #22d3ee;
-      background: rgba(6, 182, 212, 0.1);
+      color: #ffffff;
+      background: rgba(148, 163, 184, 0.24);
+      box-shadow: 0 0 0 1px rgba(226, 232, 240, 0.35);
     }
 
     .project-card__name {

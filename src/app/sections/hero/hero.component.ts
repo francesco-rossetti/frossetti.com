@@ -71,8 +71,8 @@ import { TranslocoModule } from '@jsverse/transloco';
       position: absolute;
       inset: -50px 0 0 0;
       background-image:
-        linear-gradient(to right, rgba(124, 58, 237, 0.07) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(124, 58, 237, 0.07) 1px, transparent 1px);
+        linear-gradient(to right, rgba(148, 163, 184, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.1) 1px, transparent 1px);
       background-size: 60px 60px;
       mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
       -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
@@ -87,7 +87,7 @@ import { TranslocoModule } from '@jsverse/transloco';
       transform: translate(-50%, -50%);
       width: 800px;
       height: 800px;
-      background: radial-gradient(circle, rgba(124,58,237,0.15) 0%, rgba(6,182,212,0.15) 40%, transparent 70%);
+      background: radial-gradient(circle, rgba(226, 232, 240, 0.14) 0%, rgba(148, 163, 184, 0.12) 42%, transparent 72%);
       filter: blur(60px);
       z-index: 0;
       pointer-events: none;
@@ -138,7 +138,7 @@ import { TranslocoModule } from '@jsverse/transloco';
 
     .hero__cursor {
       animation: blink 1s step-end infinite;
-      color: #8b5cf6;
+      color: #e2e8f0;
       font-weight: 300;
     }
 
@@ -163,7 +163,7 @@ import { TranslocoModule } from '@jsverse/transloco';
       width: 44px;
       height: 44px;
       margin-top: 64px;
-      color: #64748b;
+      color: #cbd5e1;
       font-size: 1.25rem;
       text-decoration: none;
       animation: bounce 2s ease infinite 1.5s, fadeInUp 0.6s ease 0.6s forwards;

@@ -76,12 +76,12 @@ import { ButtonModule } from 'primeng/button';
       width: 52px;
       height: 52px;
       border-radius: 14px;
-      background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(6, 182, 212, 0.2));
+      background: linear-gradient(135deg, rgba(203, 213, 225, 0.25), rgba(71, 85, 105, 0.3));
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
-      color: #a78bfa;
+      color: #f8fafc;
     }
 
     .cert-card__body {
@@ -92,7 +92,7 @@ import { ButtonModule } from 'primeng/button';
     .cert-card__date {
       font-size: 0.8rem;
       font-weight: 600;
-      color: #22d3ee;
+      color: #cbd5e1;
     }
 
     .cert-card__title {
@@ -113,6 +113,11 @@ import { ButtonModule } from 'primeng/button';
     .cert-card__link {
       text-decoration: none;
       font-size: 0.85rem;
+      color: #e2e8f0 !important;
+    }
+
+    .cert-card__link:hover {
+      color: #ffffff !important;
     }
 
     @media (max-width: 640px) {

@@ -45,11 +45,6 @@ import { TranslocoModule } from '@jsverse/transloco';
           <p class="footer__copyright">
             &copy; {{ currentYear }} Francesco Rossetti. {{ t('footer.rights') }}
           </p>
-          <p class="footer__built">
-            {{ t('footer.built') }} <span class="gradient-text">Angular</span>,
-            <span class="gradient-text">PrimeNG</span> &
-            <span class="gradient-text">Tailwind CSS</span>
-          </p>
         </div>
       </div>
     </footer>
@@ -72,6 +67,12 @@ import { TranslocoModule } from '@jsverse/transloco';
       align-items: center;
       flex-wrap: wrap;
       gap: 24px;
+    }
+
+    .footer__brand {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
 
     .footer__logo-img {
@@ -98,17 +99,18 @@ import { TranslocoModule } from '@jsverse/transloco';
       width: 48px;
       height: 48px;
       border-radius: 12px;
-      background: rgba(30, 41, 59, 0.6);
-      color: #ffffff;
+      background: rgba(15, 23, 42, 0.82);
+      color: #f8fafc;
       text-decoration: none;
       font-size: 1.8rem;
-      transition: background 0.2s, color 0.2s, transform 0.2s;
+      transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
     }
 
     .footer__social-link:hover {
-      background: rgba(220, 38, 38, 0.2);
-      color: #ef4444;
+      background: rgba(148, 163, 184, 0.24);
+      color: #ffffff;
       transform: translateY(-2px);
+      box-shadow: 0 0 0 1px rgba(226, 232, 240, 0.35), 0 10px 22px rgba(2, 6, 23, 0.5);
     }
 
     .footer__divider {
@@ -137,6 +139,10 @@ import { TranslocoModule } from '@jsverse/transloco';
       .footer__bottom {
         flex-direction: column;
         text-align: center;
+      }
+
+      .footer__brand {
+        align-items: center;
       }
     }
   `,

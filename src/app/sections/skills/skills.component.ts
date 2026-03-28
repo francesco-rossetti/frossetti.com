@@ -71,7 +71,7 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
       width: 64px;
       height: 64px;
       border-radius: 16px;
-      background: rgba(139, 92, 246, 0.1);
+      background: rgba(148, 163, 184, 0.14);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -80,7 +80,7 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
     }
 
     .skill-card:hover .skill-card__icon-wrapper {
-      background: rgba(139, 92, 246, 0.2);
+      background: rgba(148, 163, 184, 0.24);
     }
 
     .skill-card__icon {

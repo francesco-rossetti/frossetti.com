@@ -124,8 +124,8 @@ interface LangOption {
       max-width: 1200px;
       border-radius: 100px;
       padding: 12px 24px;
-      border: 1px solid rgba(148, 163, 184, 0.15);
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(220, 38, 38, 0.1);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      box-shadow: 0 12px 44px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(226, 232, 240, 0.22);
       left: 16px;
       right: 16px;
     }
@@ -151,7 +151,7 @@ interface LangOption {
 
     .navbar__logo:hover .navbar__logo-img {
       transform: scale(1.08) rotate(-2deg);
-      box-shadow: 0 0 20px rgba(220, 38, 38, 0.6);
+      box-shadow: 0 0 24px rgba(241, 245, 249, 0.4);
     }
 
     .navbar__links {
@@ -164,7 +164,7 @@ interface LangOption {
 
     .navbar__link {
       padding: 8px 16px;
-      color: #94a3b8;
+      color: #cbd5e1;
       text-decoration: none;
       font-size: 0.9rem;
       font-weight: 500;
@@ -173,8 +173,8 @@ interface LangOption {
     }
 
     .navbar__link:hover {
-      color: #f8fafc;
-      background: rgba(148, 163, 184, 0.1);
+      color: #ffffff;
+      background: rgba(148, 163, 184, 0.24);
     }
 
     .navbar__actions {
@@ -211,7 +211,7 @@ interface LangOption {
     }
 
     .drawer-link:hover {
-      background: rgba(220, 38, 38, 0.1);
+      background: rgba(148, 163, 184, 0.24);
     }
 
     :host ::ng-deep .mobile-drawer-theme.p-drawer {
@@ -238,7 +238,11 @@ interface LangOption {
     }
 
     :host ::ng-deep .mobile-drawer-theme .p-drawer-close-button:hover {
-      background: rgba(220, 38, 38, 0.15);
+      background: rgba(148, 163, 184, 0.28);
+    }
+
+    :host ::ng-deep .navbar__hamburger .pi {
+      color: #f1f5f9;
     }
 
     @media (max-width: 768px) {
