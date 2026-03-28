@@ -1,0 +1,46 @@
+{
+  "experience": [
+    {
+      "title": "experience.ePol-title",
+      "period": "experience.ePol-period",
+      "position": "experience.ePol-position",
+      "description": "experience.ePol-description"
+    },
+    {
+      "title": "experience.latitudo-title",
+      "period": "experience.latitudo-period",
+      "position": "experience.latitudo-position",
+      "description": "experience.latitudo-description"
+    },
+    {
+      "title": "experience.baleraortica-title",
+      "period": "experience.baleraortica-period",
+      "position": "experience.baleraortica-position",
+      "description": "experience.baleraortica-description"
+    },
+    {
+      "title": "experience.brainfarm-title",
+      "period": "experience.brainfarm-period",
+      "position": "experience.brainfarm-position",
+      "description": "experience.brainfarm-description"
+    },
+    {
+      "title": "experience.studiolarosadance-title",
+      "period": "experience.studiolarosadance-period",
+      "position": "experience.studiolarosadance-position",
+      "description": "experience.studiolarosadance-description"
+    },
+    {
+      "title": "experience.hes-title",
+      "period": "experience.hes-period",
+      "position": "experience.hes-position",
+      "description": "experience.hes-description"
+    },
+    {
+      "title": "experience.amada-title",
+      "period": "experience.amada-period",
+      "position": "experience.amada-position",
+      "description": "experience.amada-description"
+    }
+  ]
+}

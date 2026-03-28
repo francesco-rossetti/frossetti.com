@@ -1,0 +1,43 @@
+{
+  "project": [
+    {
+      "name": "project.project-collecchio-name",
+      "description": "project.project-collecchio-description",
+      "url": "project.project-collecchio-url",
+      "technologies": [
+        "project.project-collecchio-technology-1",
+        "project.project-collecchio-technology-2",
+        "project.project-collecchio-technology-3"
+      ]
+    },
+    {
+      "name": "project.project-piacenza-ar-name",
+      "description": "project.project-piacenza-ar-description",
+      "url": "project.project-piacenza-ar-url",
+      "technologies": [
+        "project.project-piacenza-ar-technology-1",
+        "project.project-piacenza-ar-technology-2",
+        "project.project-piacenza-ar-technology-3"
+      ]
+    },
+    {
+      "name": "project.project-armatamente-20-name",
+      "description": "project.project-armatamente-20-description",
+      "url": "project.project-armatamente-20-url",
+      "technologies": [
+        "project.project-armatamente-20-technology-1",
+        "project.project-armatamente-20-technology-2",
+        "project.project-armatamente-20-technology-3"
+      ]
+    },
+    {
+      "name": "project.project-museo-3d-name",
+      "description": "project.project-museo-3d-description",
+      "url": "project.project-museo-3d-url",
+      "technologies": [
+        "project.project-museo-3d-technology-1",
+        "project.project-museo-3d-technology-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "certification": [
+    {
+      "title": "certification.az104-title",
+      "dates": "certification.az104-dates",
+      "url": "certification.az104-url",
+      "description": "certification.az104-description"
+    },
+    {
+      "title": "certification.az900-title",
+      "dates": "certification.az900-dates",
+      "url": "certification.az900-url",
+      "description": "certification.az900-description"
+    },
+    {
+      "title": "certification.sc900-title",
+      "dates": "certification.sc900-dates",
+      "url": "certification.sc900-url",
+      "description": "certification.sc900-description"
+    },
+    {
+      "title": "certification.ai900-title",
+      "dates": "certification.ai900-dates",
+      "url": "certification.ai900-url",
+      "description": "certification.ai900-description"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "home": {
+    "title": "Francesco Rossetti",
+    "subtitle": "Full Stack Developer",
+    "cta": "Learn more"
+  },
+
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "projects": "Projects"
+  },
+
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with"
+  },
+
+  "education": {
+    "label": "EDUCATION",
+    "title": "Education",
+    "sub": "My educational journey",
+
+    "unipr_institution": "University of Parma — Parma (PR)",
+    "unipr_degree": "Bachelor's Degree in Computer Engineering",
+    "unipr_period": "2018 — 2023",
+    "unipr_thesis_abstract": " ",
+
+    "isii_institution": "ISII G. Marconi — Piacenza (PC)",
+    "isii_degree": "Diploma with Qualification of Technical Leader in Computer Science",
+    "isii_period": "2013 — 2018",
+    "isii_thesis_abstract": " "
+  },
+
+  "experience": {
+    "label": "EXPERIENCE",
+    "title": "Experience",
+    "sub": "My professional journey",
+
+    "ePol-title": "e-Pol S.R.L.",
+    "ePol-period": "October 2024 — Present",
+    "ePol-position": "Full Stack Developer",
+    "ePol-description": "Development of web applications for business process management.",
+
+    "latitudo-title": "Latitudo S.R.L.",
+    "latitudo-period": "April 2023 — September 2024",
+    "latitudo-position": "Full Stack Developer",
+    "latitudo-description": "Development/refactoring of WEB applications using Vue.JS and .NET 6 stack. Development and maintenance of Python scripts. In 2021, during University internship, created a custom view for Microsoft Power BI using APIs and React.",
+
+    "baleraortica-title": "La Balera dell'Ortica",
+    "baleraortica-period": "March 2022 — September 2022",
+    "baleraortica-position": "Full Stack Developer",
+    "baleraortica-description": "Creation of a booking platform for the company's dance classes.",
+
+    "brainfarm-title": "BRAINFARM Soc. Coop.",
+    "brainfarm-period": "June 2021 — October 2021",
+    "brainfarm-position": "Help Desk Technician",
+    "brainfarm-description": "Technical assistance and hardware/software maintenance at the Province of Piacenza.",
+
+    "studiolarosadance-title": "Studio Larosa Dance",
+    "studiolarosadance-period": "December 2019 — September 2020",
+    "studiolarosadance-position": "Full Stack Developer",
+    "studiolarosadance-description": "Website creation for a sports business using WordPress Avada theme. A dance class booking platform was later added to the project.",
+
+    "hes-title": "H&S Qualità nel Software S.P.A.",
+    "hes-period": "July 2018 — September 2018",
+    "hes-position": "Full Stack Developer",
+    "hes-description": "Creation of customized CRM platforms for various clients' workflows using C# (ASP.NET with EXT.NET), mobile (XAMARIN) and SQL.",
+
+    "amada-title": "AMADA S.P.A.",
+    "amada-period": "July 2017 — September 2017",
+    "amada-position": "Help Desk Technician",
+    "amada-description": "Technical assistance and hardware/software maintenance at the Piacenza headquarters."
+  },
+
+  "skill": {
+    "label": "SKILLS",
+    "title": "Skills",
+    "sub": "Programming languages and frameworks",
+
+    "angular-title": "Angular",
+    "angular-description": "Self-taught. Used Angular in the development of medium-high complexity applications, leveraging components, two-way data binding and integrated Router for smooth navigation.",
+
+    "vue-title": "Vue.JS",
+    "vue-description": "Used Vue.js in developing medium-high complexity SPAs, organizing code into reusable components with reactive data binding system.",
+
+    "flutter-title": "Flutter",
+    "flutter-description": "Cross-platform framework (Android, iOS, Web). Used for creating small and medium complexity applications with powerful and reactive UI toolkit.",
+
+    "csharp-title": "C#",
+    "csharp-description": "Learned at school. Experience with .NET framework for web apps (ASP.NET, Blazor), desktop (WPF, UWP), mobile (Xamarin) and gaming (Unity).",
+
+    "laravel-title": "Laravel",
+    "laravel-description": "Used in both frontend and backend with Web API development. Appreciated for database operations simplicity and secure authentication structure.",
+
+    "python-title": "Python",
+    "python-description": "Learned in academic context with advanced features. Experience with Flask, FastAPI, SQLAlchemy and neural network training for Computer Vision.",
+
+    "sql-title": "SQL",
+    "sql-description": "Used in MySQL, Microsoft SQL Server, and SQLite variants. Skills in table structures, complex queries, views and stored procedures."
+  },
+
+  "certification": {
+    "label": "CERTIFICATIONS",
+    "title": "Certifications",
+    "sub": "My certifications",
+    "learnmore": "Learn more",
+
+    "az104-title": "AZ-104: Microsoft Azure Administrator",
+    "az104-dates": "March 2024",
+    "az104-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+    "az104-description": "Skills to manage Microsoft Azure cloud services, including compute, networking, storage and security. Virtual network configuration, resource monitoring, backup and identity management.",
+
+    "az900-title": "AZ-900: Microsoft Azure Fundamentals",
+    "az900-dates": "March 2023",
+    "az900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+    "az900-description": "Fundamental knowledge of Microsoft Azure cloud services. Cloud computing concepts, deployment models, security, privacy and pricing.",
+
+    "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+    "sc900-dates": "November 2021",
+    "sc900-url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals",
+    "sc900-description": "Fundamental knowledge of security, compliance and identity in Microsoft 365 and Azure. Security, privacy and compliance principles in the cloud.",
+
+    "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
+    "ai900-dates": "April 2021",
+    "ai900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+    "ai900-description": "Fundamental knowledge of AI and Machine Learning in Microsoft Azure. AI/ML services, security and pricing."
+  },
+
+  "project": {
+    "label": "PROJECTS",
+    "title": "Projects",
+    "sub": "My projects",
+
+    "project-collecchio-name": "Barriers of Collecchio",
+    "project-collecchio-description": "iOS/Android mobile app for reporting dangers affecting people with disabilities. Built with Flutter and TensorFlow Lite computer vision, in collaboration with the University of Parma.",
+    "project-collecchio-url": " ",
+    "project-collecchio-technology-1": "Flutter",
+    "project-collecchio-technology-2": "TensorFlow",
+    "project-collecchio-technology-3": "SQLite",
+
+    "project-piacenza-ar-name": "Piacenza AR",
+    "project-piacenza-ar-description": "App designed for tourists with 3D models of city monuments using Google Earth, Unity and Vuforia with interactive historical notes.",
+    "project-piacenza-ar-url": " ",
+    "project-piacenza-ar-technology-1": "Unity",
+    "project-piacenza-ar-technology-2": "Vuforia",
+    "project-piacenza-ar-technology-3": "Google Earth",
+
+    "project-armatamente-20-name": "Armatamente 2.0",
+    "project-armatamente-20-description": "School project for the San Paolo Foundation of Turin 2017 tender, aimed at recovering the lost ARMATAMENTE project website.",
+    "project-armatamente-20-url": " ",
+    "project-armatamente-20-technology-1": "HTML",
+    "project-armatamente-20-technology-2": "JavaScript",
+    "project-armatamente-20-technology-3": "CSS",
+
+    "project-museo-3d-name": "Museum 3D",
+    "project-museo-3d-description": "Fully traversable 3D environment with interactive historical content. Awarded for extraordinary originality, recognized by the international EUSTORY network.",
+    "project-museo-3d-url": " ",
+    "project-museo-3d-technology-1": "Unity",
+    "project-museo-3d-technology-2": "C#"
+  }
+}

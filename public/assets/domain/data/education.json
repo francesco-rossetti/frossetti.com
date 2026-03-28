@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "institution": "education.unipr_institution",
+      "degree": "education.unipr_degree",
+      "period": "education.unipr_period",
+      "thesis_abstract": "education.unipr_thesis_abstract"
+    },
+    {
+      "institution": "education.isii_institution",
+      "degree": "education.isii_degree",
+      "period": "education.isii_period",
+      "thesis_abstract": "education.isii_thesis_abstract"
+    }
+  ]
+}
