@@ -2,6 +2,8 @@
 @import "primeicons/primeicons.css";
 @import "tailwindcss-primeui";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @theme {
   /* Typography */
   --font-sans: "Roboto", system-ui, -apple-system, sans-serif;
@@ -85,6 +87,7 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+  font-family: "Roboto", system-ui, -apple-system, sans-serif;
 }
 
 body {

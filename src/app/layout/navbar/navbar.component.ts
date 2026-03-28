@@ -80,6 +80,7 @@ interface LangOption {
       [(visible)]="drawerVisible"
       position="right"
       [style]="{ width: '280px' }"
+      styleClass="mobile-drawer-theme"
       header="Menu"
     >
       <ng-template #content>
@@ -108,7 +109,7 @@ interface LangOption {
       z-index: 1000;
       transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     }
-    
+
     .navbar:not(.navbar--scrolled) {
       padding: 24px 32px;
       background: transparent;
@@ -147,7 +148,7 @@ interface LangOption {
       border-radius: 8px;
       transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
     }
-    
+
     .navbar__logo:hover .navbar__logo-img {
       transform: scale(1.08) rotate(-2deg);
       box-shadow: 0 0 20px rgba(220, 38, 38, 0.6);
@@ -213,12 +214,39 @@ interface LangOption {
       background: rgba(220, 38, 38, 0.1);
     }
 
+    :host ::ng-deep .mobile-drawer-theme.p-drawer {
+      background: rgba(10, 15, 26, 0.95);
+      color: #e2e8f0;
+      border-left: 1px solid rgba(148, 163, 184, 0.2);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    :host ::ng-deep .mobile-drawer-theme .p-drawer-header {
+      background: transparent;
+      color: #f8fafc;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+    }
+
+    :host ::ng-deep .mobile-drawer-theme .p-drawer-content {
+      background: transparent;
+      color: inherit;
+    }
+
+    :host ::ng-deep .mobile-drawer-theme .p-drawer-close-button {
+      color: #e2e8f0;
+    }
+
+    :host ::ng-deep .mobile-drawer-theme .p-drawer-close-button:hover {
+      background: rgba(220, 38, 38, 0.15);
+    }
+
     @media (max-width: 768px) {
       .navbar__logo-img {
         height: 32px;
       }
       .navbar__lang-select {
-        width: 72px;
+        width: 90px;
       }
       .navbar__actions {
         gap: 6px;
