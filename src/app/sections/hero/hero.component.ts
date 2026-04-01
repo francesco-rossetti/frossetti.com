@@ -1,10 +1,11 @@
 import { Component, OnInit, signal, inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-import { TranslocoModule } from '@jsverse/transloco';
+import { TranslocoModule, TranslocoPipe, TranslocoService } from '@jsverse/transloco';
 
 @Component({
   selector: 'app-hero',
   imports: [TranslocoModule],
+  providers: [TranslocoPipe],
   template: `
     <section
       id="hero"
@@ -18,7 +19,7 @@ import { TranslocoModule } from '@jsverse/transloco';
       <div class="hero__glow" aria-hidden="true"></div>
 
       <div class="hero__content">
-        <p class="hero__greeting">👋 Ciao, sono</p>
+        <p class="hero__greeting">👋 {{ t('home.greeting') }}</p>
         <h1 class="hero__name gradient-text">{{ t('home.title') }}</h1>
         <div class="hero__role-wrapper">
           <p class="hero__role">
@@ -187,10 +188,19 @@ export class HeroComponent implements OnInit {
 
   displayedText = signal('');
 
-  private fullText = 'Full Stack Developer';
+  private fullText = '';
   private charIndex = 0;
   private isDeleting = false;
   private typingSpeed = 100;
+
+  constructor(
+    translocoService: TranslocoService,
+    translocoPipe: TranslocoPipe
+  ) {
+    translocoService.selectTranslate('home.subtitle').subscribe((text) => {
+      this.fullText = text;
+    });
+  }
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {

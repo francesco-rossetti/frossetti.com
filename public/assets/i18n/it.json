@@ -1,5 +1,6 @@
 {
   "home": {
+    "greeting": "Ciao, sono",
     "title": "Francesco Rossetti",
     "subtitle": "Sviluppatore Full Stack",
     "cta": "Scopri di più"
@@ -7,7 +8,7 @@
 
   "nav": {
     "home": "Home",
-    "skills": "Skills",
+    "skills": "Competenze",
     "experience": "Esperienze",
     "education": "Formazione",
     "certifications": "Certificazioni",
@@ -22,143 +23,143 @@
   "education": {
     "label": "FORMAZIONE",
     "title": "Formazione",
-    "sub": "Il mio percorso di studi",
+    "sub": "Percorso accademico orientato a ingegneria del software e progettazione di sistemi",
 
     "unipr_institution": "Università degli Studi di Parma — Parma (PR)",
     "unipr_degree": "Laurea Triennale in Ingegneria Informatica",
     "unipr_period": "2018 — 2023",
-    "unipr_thesis_abstract": " ",
+    "unipr_thesis_abstract": "Formazione focalizzata su sviluppo software, architetture applicative e progettazione di sistemi scalabili.",
 
     "isii_institution": "ISII G. Marconi — Piacenza (PC)",
-    "isii_degree": "Diploma con la qualifica di Capotecnico in Informatica",
+    "isii_degree": "Diploma in Informatica",
     "isii_period": "2013 — 2018",
-    "isii_thesis_abstract": " "
+    "isii_thesis_abstract": "Solide basi in programmazione, sviluppo software e progettazione di sistemi attraverso attività pratiche e progetti."
   },
 
   "experience": {
     "label": "ESPERIENZE",
     "title": "Esperienze",
-    "sub": "Il mio percorso lavorativo",
+    "sub": "Esperienza nello sviluppo di applicazioni web e sistemi software",
 
     "ePol-title": "e-Pol S.R.L.",
     "ePol-period": "Ottobre 2024 — Presente",
     "ePol-position": "Sviluppatore Full Stack",
-    "ePol-description": "Sviluppo di applicazioni web per la gestione di processi aziendali.",
+    "ePol-description": "Sviluppo di applicazioni web per la gestione di processi aziendali, con focus su scalabilità, performance e manutenibilità del codice. Miglioramento dei flussi operativi e qualità del software.",
 
     "latitudo-title": "Latitudo S.R.L.",
     "latitudo-period": "Aprile 2023 — Settembre 2024",
     "latitudo-position": "Sviluppatore Full Stack",
-    "latitudo-description": "Attività di sviluppo/rifacimento di applicazioni WEB utilizzando lo stack Vue.JS e .NET 6. Sviluppo e manutenzione di script Python. Nel 2021 durante il tirocinio Universitario è stata creata una vista personalizzata per la suite Microsoft Power BI utilizzando le API fornite e React.",
+    "latitudo-description": "Sviluppo e refactoring di applicazioni web con Vue.js e .NET 6. Implementazione di backend e REST API, gestione database e manutenzione di script Python. Realizzazione di una custom visual Power BI con React.",
 
     "baleraortica-title": "La Balera dell'Ortica",
     "baleraortica-period": "Marzo 2022 — Settembre 2022",
     "baleraortica-position": "Sviluppatore Full Stack",
-    "baleraortica-description": "La collaborazione prevedeva la creazione di una piattaforma di prenotazione alle lezioni di ballo dell'azienda.",
+    "baleraortica-description": "Progettazione e sviluppo di una piattaforma di prenotazione, migliorando gestione delle attività e esperienza utente.",
 
     "brainfarm-title": "BRAINFARM Soc. Coop.",
     "brainfarm-period": "Giugno 2021 — Ottobre 2021",
-    "brainfarm-position": "Tecnico di Help Desk",
-    "brainfarm-description": "Assistenza tecnica e manutenzione hardware e software presso la Provincia di Piacenza.",
+    "brainfarm-position": "Tecnico Help Desk",
+    "brainfarm-description": "Supporto tecnico e manutenzione hardware/software, garantendo continuità operativa.",
 
     "studiolarosadance-title": "Studio Larosa Dance",
     "studiolarosadance-period": "Dicembre 2019 — Settembre 2020",
     "studiolarosadance-position": "Sviluppatore Full Stack",
-    "studiolarosadance-description": "Attività di creazione di un sito web per un'impresa sportiva. Il progetto è stato realizzato tramite il tema WordPress Avada e i plugin grafici. Al progetto originale è stato aggiunto in un secondo tempo una piattaforma di prenotazione alle lezioni di ballo dell'azienda.",
+    "studiolarosadance-description": "Sviluppo sito web e piattaforma di prenotazione, migliorando accessibilità dei servizi e gestione clienti.",
 
     "hes-title": "H&S Qualità nel Software S.P.A.",
     "hes-period": "Luglio 2018 — Settembre 2018",
     "hes-position": "Sviluppatore Full Stack",
-    "hes-description": "Attività di creazione di piattaforme CRM personalizzate per il workflow di vari clienti. Sono stati utilizzati diversi linguaggi tra cui C# nella sua componente web (ASP.NET con EXT.NET), mobile (XAMARIN) e SQL.",
+    "hes-description": "Sviluppo di soluzioni CRM personalizzate utilizzando C#, ASP.NET, Xamarin e SQL.",
 
     "amada-title": "AMADA S.P.A.",
-    "amada-period": "Luglio 2017 — Settembre 2017",
-    "amada-position": "Tecnico di Help Desk",
-    "amada-description": "Assistenza tecnica e manutenzione hardware e software presso la sede di Piacenza."
+    "amada-period": "Maggio 2017 — Giugno 2017",
+    "amada-position": "Sviluppatore Software",
+    "amada-description": "Sviluppo di una piattaforma web in C# per la gestione dei ricambi dei prodotti aziendali, migliorando organizzazione dei dati e processi interni."
   },
 
   "skill": {
     "label": "SKILLS",
-    "title": "Skills",
-    "sub": "Linguaggi di programmazione e framework",
+    "title": "Competenze",
+    "sub": "Tecnologie utilizzate nello sviluppo di applicazioni web e sistemi software",
 
     "angular-title": "Angular",
-    "angular-description": "Imparato da autodidatta. Ho utilizzato Angular nello sviluppo di applicazioni di complessità medio-alta, sfruttando componenti, two-way data binding e Router integrato per navigazione fluida.",
+    "angular-description": "Sviluppo di applicazioni single-page complesse utilizzando Angular, con architettura modulare, gestione dello stato, routing avanzato e ottimizzazione delle performance. Esperienza nella strutturazione di progetti scalabili e manutenibili in contesti reali.",
 
-    "vue-title": "Vue.JS",
-    "vue-description": "Ho impiegato Vue.js nello sviluppo di SPA di medio-alta complessità, organizzando il codice in componenti riutilizzabili con direttive e sistema di binding reattivo.",
+    "vue-title": "Vue.js",
+    "vue-description": "Sviluppo di applicazioni web reattive basate su componenti, con gestione efficiente dello stato e interfacce dinamiche orientate alla user experience.",
 
     "flutter-title": "Flutter",
-    "flutter-description": "Framework per applicazioni cross-platform (Android, iOS, Web). Utilizzato per creare applicazioni di piccola e media complessità con UI toolkit potente e reattivo.",
+    "flutter-description": "Sviluppo di applicazioni mobile e web cross-platform con codebase condivisa, progettando interfacce performanti e consistenti tra le diverse piattaforme.",
 
     "csharp-title": "C#",
-    "csharp-description": "Linguaggio appreso a scuola. Esperienza con .NET framework per applicazioni web (ASP.NET, Blazor), desktop (WPF, UWP), mobile (Xamarin) e gaming (Unity).",
+    "csharp-description": "Sviluppo di applicazioni con C# e .NET in ambito web, desktop e mobile. Esperienza con programmazione object-oriented, integrazione con database tramite Entity Framework e sviluppo di logiche applicative complesse.",
 
     "laravel-title": "Laravel",
-    "laravel-description": "Utilizzato sia nel frontend che nel backend con sviluppo di Web API. Apprezzato per la semplicità nelle operazioni di database e struttura di autenticazione sicura.",
+    "laravel-description": "Sviluppo backend e API REST con gestione autenticazione, accesso ai dati e strutturazione di applicazioni scalabili.",
 
     "python-title": "Python",
-    "python-description": "Appreso in ambito universitario con funzionalità avanzate. Esperienza con Flask, FastAPI, SQLAlchemy e addestramento di reti neurali per Computer Vision.",
+    "python-description": "Utilizzato per scripting, backend e sviluppo di applicazioni legate a data processing e computer vision.",
 
     "sql-title": "SQL",
-    "sql-description": "Utilizzato nelle varianti MySQL, Microsoft SQL Server e SQLite. Competenze in struttura tabelle, query complesse, views e stored procedures."
+    "sql-description": "Progettazione e gestione di database relazionali (MySQL, SQL Server, SQLite). Esperienza nello sviluppo di query avanzate, stored procedures, functions e viste."
   },
 
   "certification": {
     "label": "CERTIFICAZIONI",
     "title": "Certificazioni",
-    "sub": "Le mie certificazioni",
+    "sub": "Competenze validate in ambito cloud e sicurezza",
     "learnmore": "Scopri di più",
 
     "az104-title": "AZ-104: Microsoft Azure Administrator",
     "az104-dates": "Marzo 2024",
     "az104-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-administrator/",
-    "az104-description": "Competenze per gestire i servizi cloud di Microsoft Azure, inclusi calcolo, rete, archiviazione e sicurezza. Configurazione reti virtuali, monitoraggio risorse, backup e gestione identità.",
+    "az104-description": "Gestione di ambienti Azure: networking, storage, identità e sicurezza.",
 
     "az900-title": "AZ-900: Microsoft Azure Fundamentals",
     "az900-dates": "Marzo 2023",
     "az900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-fundamentals/",
-    "az900-description": "Conoscenze fondamentali dei servizi cloud di Microsoft Azure. Concetti di cloud computing, modelli di distribuzione, sicurezza, privacy e pricing.",
+    "az900-description": "Fondamenti di cloud computing, servizi Azure e sicurezza.",
 
     "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
     "sc900-dates": "Novembre 2021",
     "sc900-url": "https://learn.microsoft.com/it-it/credentials/certifications/security-compliance-and-identity-fundamentals",
-    "sc900-description": "Conoscenze fondamentali della sicurezza, conformità e identità in Microsoft 365 e Azure. Principi di sicurezza, privacy e compliance nel cloud.",
+    "sc900-description": "Principi di sicurezza, identità e compliance.",
 
     "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
     "ai900-dates": "Aprile 2021",
     "ai900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-ai-fundamentals/",
-    "ai900-description": "Conoscenze fondamentali di Intelligenza Artificiale e Machine Learning in Microsoft Azure. Servizi AI/ML, sicurezza e pricing."
+    "ai900-description": "Fondamenti di AI e machine learning."
   },
 
   "project": {
     "label": "PROGETTI",
     "title": "Progetti",
-    "sub": "I miei progetti",
+    "sub": "Progetti che rappresentano esperienze concrete di sviluppo software, integrazione tecnologica e risoluzione di problemi complessi",
 
     "project-collecchio-name": "Barriere di Collecchio",
-    "project-collecchio-description": "App mobile iOS/Android per segnalare pericoli ai danni di persone con disabilità. Sviluppata in Flutter con visione artificiale TensorFlow Lite, in collaborazione con l'Università di Parma.",
-    "project-collecchio-url": " ",
+    "project-collecchio-description": "Sviluppo di un'applicazione mobile cross-platform (iOS e Android) progettata per migliorare l’accessibilità urbana, consentendo la segnalazione e classificazione di barriere architettoniche. Il progetto integra modelli di computer vision tramite TensorFlow Lite per l’analisi automatica delle immagini e la categorizzazione dei rischi. Realizzato in Flutter con gestione dati locale e architettura orientata alla scalabilità.",
+    "project-collecchio-url": "",
     "project-collecchio-technology-1": "Flutter",
-    "project-collecchio-technology-2": "TensorFlow",
+    "project-collecchio-technology-2": "TensorFlow Lite",
     "project-collecchio-technology-3": "SQLite",
 
     "project-piacenza-ar-name": "Piacenza AR",
-    "project-piacenza-ar-description": "App progettata per turisti con modelli 3D dei monumenti della città tramite Google Earth, Unity e Vuforia con note storiche interattive.",
-    "project-piacenza-ar-url": " ",
+    "project-piacenza-ar-description": "Sviluppo di un'applicazione di realtà aumentata per il settore turistico, basata su modelli 3D dei principali monumenti cittadini. Il progetto combina Unity, Vuforia e Google Earth per creare un sistema interattivo in grado di sovrapporre contenuti digitali al contesto reale, offrendo un’esperienza immersiva e informativa per l’utente.",
+    "project-piacenza-ar-url": "",
     "project-piacenza-ar-technology-1": "Unity",
     "project-piacenza-ar-technology-2": "Vuforia",
     "project-piacenza-ar-technology-3": "Google Earth",
 
     "project-armatamente-20-name": "Armatamente 2.0",
-    "project-armatamente-20-description": "Progetto scolastico per il bando della Fondazione San Paolo di Torino 2017, finalizzato al recupero del sito web del progetto ARMATAMENTE.",
-    "project-armatamente-20-url": " ",
+    "project-armatamente-20-description": "Recupero e ricostruzione completa del sito web del progetto ARMATAMENTE, precedentemente andato perduto. Il lavoro ha incluso la riorganizzazione dei contenuti, la riprogettazione dell’architettura del sito e la pubblicazione online, con l’obiettivo di migliorare accessibilità, struttura informativa e fruizione dei contenuti.",
+    "project-armatamente-20-url": "",
     "project-armatamente-20-technology-1": "HTML",
     "project-armatamente-20-technology-2": "JavaScript",
     "project-armatamente-20-technology-3": "CSS",
 
     "project-museo-3d-name": "Museo 3D",
-    "project-museo-3d-description": "Ambiente 3D percorribile con contenuti storici interattivi. Premiato come progetto di straordinaria originalità, riconosciuto dalla rete internazionale EUSTORY.",
-    "project-museo-3d-url": " ",
+    "project-museo-3d-description": "Progettazione e sviluppo di un ambiente 3D completamente esplorabile per la rappresentazione interattiva di contenuti storici. Il sistema, sviluppato con Unity e C#, permette all’utente di navigare nello spazio virtuale e attivare contenuti dinamici tramite interazioni. Il progetto è stato riconosciuto per l’elevato livello di innovazione e ha ottenuto visibilità anche a livello internazionale (rete EUSTORY).",
+    "project-museo-3d-url": "",
     "project-museo-3d-technology-1": "Unity",
     "project-museo-3d-technology-2": "C#"
   }
