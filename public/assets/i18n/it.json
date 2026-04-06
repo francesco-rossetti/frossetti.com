@@ -13,20 +13,21 @@
     "experience": "Esperienze",
     "education": "Formazione",
     "certifications": "Certificazioni",
-    "projects": "Progetti"
+    "projects": "Progetti",
+    "contact": "Contatti"
   },
 
   "about": {
     "label": "CHI SONO",
     "title": "Profilo Professionale",
     "jobTitle": "Full Stack Developer",
-    "summary": "Sviluppatore Full Stack con oltre 7 anni di esperienza nella progettazione e sviluppo di applicazioni web e mobile. Specializzato in architetture scalabili con Angular, Vue.js e .NET, ho collaborato con aziende di diversi settori contribuendo a migliorare processi aziendali, qualità del codice e esperienza utente. Certificato Microsoft Azure, affronto ogni progetto con mentalità ingegneristica orientata alla manutenibilità e alle performance.",
+    "summary": "Sviluppatore Full Stack con oltre 7 anni di esperienza nello sviluppo di applicazioni web e mobile. Specializzato in Angular, .NET/C# e SQL, progetto e realizzo soluzioni scalabili, performanti e manutenibili. Ho lavorato su frontend complessi, backend applicativi e database relazionali, contribuendo all’evoluzione di prodotti software e processi aziendali.",
     "yearsValue": "7+",
     "yearsLabel": "Anni di Esperienza",
     "certsValue": "4",
     "certsLabel": "Certificazioni Microsoft",
-    "stackValue": "10+",
-    "stackLabel": "Tecnologie Padroneggiabili",
+    "stackValue": "3",
+    "stackLabel": "Core Technologies",
     "kwAngular": "Angular",
     "kwDotNet": ".NET / C#",
     "kwVue": "Vue.js",
@@ -35,6 +36,13 @@
     "kwRest": "REST API",
     "kwSql": "SQL / Database",
     "kwGit": "Git / CI-CD"
+  },
+
+  "contact": {
+    "label": "CONTATTI",
+    "title": "Contattami",
+    "sub": "Disponibile per collaborazioni e nuove opportunità",
+    "cta": "Scrivimi per discutere di un progetto o di una collaborazione"
   },
 
   "footer": {
@@ -66,37 +74,37 @@
     "ePol-title": "e-Pol S.R.L.",
     "ePol-period": "Ottobre 2024 — Presente",
     "ePol-position": "Sviluppatore Full Stack",
-    "ePol-description": "Sviluppo di applicazioni web per la gestione di processi aziendali, con focus su scalabilità, performance e manutenibilità del codice. Miglioramento dei flussi operativi e qualità del software.",
+    "ePol-description": "Sviluppo di applicazioni web per la gestione di processi aziendali, con focus su scalabilità, performance, manutenibilità del codice e qualità del software. Contributo al miglioramento dei flussi operativi e all’evoluzione delle piattaforme applicative.",
 
     "latitudo-title": "Latitudo S.R.L.",
     "latitudo-period": "Aprile 2023 — Settembre 2024",
     "latitudo-position": "Sviluppatore Full Stack",
-    "latitudo-description": "Sviluppo e refactoring di applicazioni web con Vue.js e .NET 6. Implementazione di backend e REST API, gestione database e manutenzione di script Python. Realizzazione di una custom visual Power BI con React.",
+    "latitudo-description": "Sviluppo e refactoring di applicazioni web con Vue.js e .NET 6. Implementazione di servizi backend e REST API, gestione database e manutenzione di script Python. Realizzazione di una custom visual per Microsoft Power BI tramite React e API dedicate.",
 
     "baleraortica-title": "La Balera dell'Ortica",
     "baleraortica-period": "Marzo 2022 — Settembre 2022",
     "baleraortica-position": "Sviluppatore Full Stack",
-    "baleraortica-description": "Progettazione e sviluppo di una piattaforma di prenotazione, migliorando gestione delle attività e esperienza utente.",
+    "baleraortica-description": "Progettazione e sviluppo di una piattaforma di prenotazione per la gestione delle lezioni di ballo, migliorando organizzazione operativa ed esperienza utente.",
 
     "brainfarm-title": "BRAINFARM Soc. Coop.",
     "brainfarm-period": "Giugno 2021 — Ottobre 2021",
     "brainfarm-position": "Tecnico Help Desk",
-    "brainfarm-description": "Supporto tecnico e manutenzione hardware/software, garantendo continuità operativa.",
+    "brainfarm-description": "Supporto tecnico di primo livello, manutenzione hardware e software e gestione delle problematiche operative, garantendo continuità dei servizi IT.",
 
     "studiolarosadance-title": "Studio Larosa Dance",
     "studiolarosadance-period": "Dicembre 2019 — Settembre 2020",
     "studiolarosadance-position": "Sviluppatore Full Stack",
-    "studiolarosadance-description": "Sviluppo sito web e piattaforma di prenotazione, migliorando accessibilità dei servizi e gestione clienti.",
+    "studiolarosadance-description": "Sviluppo di sito web aziendale e successiva integrazione di una piattaforma di prenotazione, migliorando accessibilità dei servizi e gestione delle richieste clienti.",
 
     "hes-title": "H&S Qualità nel Software S.P.A.",
     "hes-period": "Luglio 2018 — Settembre 2018",
     "hes-position": "Sviluppatore Full Stack",
-    "hes-description": "Sviluppo di soluzioni CRM personalizzate utilizzando C#, ASP.NET, Xamarin e SQL.",
+    "hes-description": "Sviluppo di soluzioni CRM personalizzate per diversi workflow aziendali utilizzando C#, ASP.NET, Xamarin e SQL, operando su componenti frontend, backend e database.",
 
     "amada-title": "AMADA S.P.A.",
     "amada-period": "Maggio 2017 — Giugno 2017",
     "amada-position": "Sviluppatore Software",
-    "amada-description": "Sviluppo di una piattaforma web in C# per la gestione dei ricambi dei prodotti aziendali, migliorando organizzazione dei dati e processi interni."
+    "amada-description": "Sviluppo di una piattaforma web in C# per la gestione dei ricambi dei prodotti aziendali, con focus su organizzazione dei dati, supporto ai processi interni ed efficienza operativa."
   },
 
   "skill": {
@@ -105,25 +113,25 @@
     "sub": "Tecnologie utilizzate nello sviluppo di applicazioni web e sistemi software",
 
     "angular-title": "Angular",
-    "angular-description": "Sviluppo di applicazioni single-page complesse utilizzando Angular, con architettura modulare, gestione dello stato, routing avanzato e ottimizzazione delle performance. Esperienza nella strutturazione di progetti scalabili e manutenibili in contesti reali.",
+    "angular-description": "Sviluppo di applicazioni single-page complesse con Angular, utilizzando architettura modulare, componenti riutilizzabili, routing avanzato, state management e ottimizzazione delle performance. Esperienza nella progettazione di frontend scalabili, manutenibili e strutturati per contesti applicativi reali.",
 
     "vue-title": "Vue.js",
-    "vue-description": "Sviluppo di applicazioni web reattive basate su componenti, con gestione efficiente dello stato e interfacce dinamiche orientate alla user experience.",
+    "vue-description": "Sviluppo di applicazioni web reattive basate su componenti, con gestione efficiente dello stato e interfacce dinamiche orientate a usabilità, performance e chiarezza architetturale.",
 
     "flutter-title": "Flutter",
-    "flutter-description": "Sviluppo di applicazioni mobile e web cross-platform con codebase condivisa, progettando interfacce performanti e consistenti tra le diverse piattaforme.",
+    "flutter-description": "Sviluppo di applicazioni mobile e web cross-platform con codebase condivisa, progettando interfacce performanti, coerenti e adatte a diversi contesti d’uso.",
 
     "csharp-title": "C#",
-    "csharp-description": "Sviluppo di applicazioni con C# e .NET in ambito web, desktop e mobile. Esperienza con programmazione object-oriented, integrazione con database tramite Entity Framework e sviluppo di logiche applicative complesse.",
+    "csharp-description": "Sviluppo di applicazioni con C# e .NET in ambito web, desktop e mobile. Esperienza nella progettazione di logiche applicative, programmazione object-oriented, integrazione con database tramite Entity Framework e realizzazione di soluzioni orientate a robustezza e manutenibilità.",
 
     "laravel-title": "Laravel",
-    "laravel-description": "Sviluppo backend e API REST con gestione autenticazione, accesso ai dati e strutturazione di applicazioni scalabili.",
+    "laravel-description": "Sviluppo backend e API REST con gestione autenticazione, accesso ai dati e strutturazione di applicazioni scalabili e ben organizzate.",
 
     "python-title": "Python",
-    "python-description": "Utilizzato per scripting, backend e sviluppo di applicazioni legate a data processing e computer vision.",
+    "python-description": "Utilizzato per scripting, backend e sviluppo di applicazioni legate a data processing, automazione e computer vision.",
 
     "sql-title": "SQL",
-    "sql-description": "Progettazione e gestione di database relazionali (MySQL, SQL Server, SQLite). Esperienza nello sviluppo di query avanzate, stored procedures, functions e viste."
+    "sql-description": "Progettazione e gestione di database relazionali in MySQL, SQL Server e SQLite. Esperienza nello sviluppo di query avanzate, stored procedures, functions, viste, modellazione dati e strutture database a supporto di applicazioni business-oriented."
   },
 
   "certification": {
@@ -135,22 +143,22 @@
     "az104-title": "AZ-104: Microsoft Azure Administrator",
     "az104-dates": "Marzo 2024",
     "az104-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-administrator/",
-    "az104-description": "Gestione di ambienti Azure: networking, storage, identità e sicurezza.",
+    "az104-description": "Competenze nella gestione di ambienti Azure, inclusi networking, storage, identità, monitoraggio e sicurezza.",
 
     "az900-title": "AZ-900: Microsoft Azure Fundamentals",
     "az900-dates": "Marzo 2023",
     "az900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-fundamentals/",
-    "az900-description": "Fondamenti di cloud computing, servizi Azure e sicurezza.",
+    "az900-description": "Fondamenti di cloud computing, servizi Azure, sicurezza, compliance e modelli di pricing.",
 
     "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
     "sc900-dates": "Novembre 2021",
     "sc900-url": "https://learn.microsoft.com/it-it/credentials/certifications/security-compliance-and-identity-fundamentals",
-    "sc900-description": "Principi di sicurezza, identità e compliance.",
+    "sc900-description": "Principi di sicurezza, identità e compliance nell’ecosistema Microsoft.",
 
     "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
     "ai900-dates": "Aprile 2021",
     "ai900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-ai-fundamentals/",
-    "ai900-description": "Fondamenti di AI e machine learning."
+    "ai900-description": "Fondamenti di intelligenza artificiale e machine learning applicati ai servizi Azure."
   },
 
   "project": {
@@ -180,7 +188,7 @@
     "project-armatamente-20-technology-3": "CSS",
 
     "project-museo-3d-name": "Museo 3D",
-    "project-museo-3d-description": "Progettazione e sviluppo di un ambiente 3D completamente esplorabile per la rappresentazione interattiva di contenuti storici. Il sistema, sviluppato con Unity e C#, permette all’utente di navigare nello spazio virtuale e attivare contenuti dinamici tramite interazioni. Il progetto è stato riconosciuto per l’elevato livello di innovazione e ha ottenuto visibilità anche a livello internazionale (rete EUSTORY).",
+    "project-museo-3d-description": "Progettazione e sviluppo di un ambiente 3D completamente esplorabile per la rappresentazione interattiva di contenuti storici. Il sistema, sviluppato con Unity e C#, permette all’utente di navigare nello spazio virtuale e attivare contenuti dinamici tramite interazioni. Il progetto è stato riconosciuto per l’elevato livello di innovazione e ha ottenuto visibilità anche a livello internazionale attraverso la rete EUSTORY.",
     "project-museo-3d-url": "",
     "project-museo-3d-technology-1": "Unity",
     "project-museo-3d-technology-2": "C#"

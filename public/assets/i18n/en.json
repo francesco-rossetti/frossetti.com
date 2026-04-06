@@ -13,20 +13,21 @@
     "experience": "Experience",
     "education": "Education",
     "certifications": "Certifications",
-    "projects": "Projects"
+    "projects": "Projects",
+    "contact": "Contact"
   },
 
   "about": {
     "label": "ABOUT",
     "title": "Professional Profile",
     "jobTitle": "Full Stack Developer",
-    "summary": "Full Stack Developer with 7+ years of experience designing and building web and mobile applications. Specialized in scalable architectures using Angular, Vue.js, and .NET, I have collaborated with companies across different industries to improve business processes, code quality, and user experience. Microsoft Azure certified, I approach every project with an engineering mindset focused on maintainability and performance.",
+    "summary": "Full Stack Developer with 7+ years of experience building web and mobile applications. Specialized in Angular, .NET/C#, and SQL, I design and deliver scalable, high-performance, and maintainable solutions. I have worked across complex frontends, application backends, and relational databases, contributing to the evolution of software products and business processes.",
     "yearsValue": "7+",
     "yearsLabel": "Years of Experience",
     "certsValue": "4",
     "certsLabel": "Microsoft Certifications",
-    "stackValue": "10+",
-    "stackLabel": "Technologies Mastered",
+    "stackValue": "3",
+    "stackLabel": "Core Technologies",
     "kwAngular": "Angular",
     "kwDotNet": ".NET / C#",
     "kwVue": "Vue.js",
@@ -35,6 +36,13 @@
     "kwRest": "REST API",
     "kwSql": "SQL / Database",
     "kwGit": "Git / CI-CD"
+  },
+
+  "contact": {
+    "label": "CONTACT",
+    "title": "Get in touch",
+    "sub": "Open to collaborations and new opportunities",
+    "cta": "Feel free to reach out to discuss a project or collaboration"
   },
 
   "footer": {
@@ -50,53 +58,53 @@
     "unipr_institution": "University of Parma — Parma (PR)",
     "unipr_degree": "Bachelor's Degree in Computer Engineering",
     "unipr_period": "2018 — 2023",
-    "unipr_thesis_abstract": "Focused on software development and scalable system design.",
+    "unipr_thesis_abstract": "Focused on software development, application architecture, and scalable system design.",
 
     "isii_institution": "ISII G. Marconi — Piacenza (PC)",
     "isii_degree": "Diploma in Computer Science",
     "isii_period": "2013 — 2018",
-    "isii_thesis_abstract": "Strong foundation in programming and software development."
+    "isii_thesis_abstract": "Built a strong foundation in programming, software development, and system design through practical work and projects."
   },
 
   "experience": {
     "label": "EXPERIENCE",
     "title": "Experience",
-    "sub": "Experience in web development and backend systems",
+    "sub": "Experience in web application development and software systems",
 
     "ePol-title": "e-Pol S.R.L.",
     "ePol-period": "October 2024 — Present",
     "ePol-position": "Full Stack Developer",
-    "ePol-description": "Development of web applications for business processes with focus on scalability and performance.",
+    "ePol-description": "Development of web applications for business process management, with a focus on scalability, performance, code maintainability, and software quality. Contributed to improving operational workflows and the evolution of application platforms.",
 
     "latitudo-title": "Latitudo S.R.L.",
     "latitudo-period": "April 2023 — September 2024",
     "latitudo-position": "Full Stack Developer",
-    "latitudo-description": "Development and refactoring of web applications using Vue.js and .NET 6, including backend services and REST APIs.",
+    "latitudo-description": "Developed and refactored web applications using Vue.js and .NET 6. Implemented backend services and REST APIs, managed databases, and maintained Python scripts. Built a custom Microsoft Power BI visual using React and dedicated APIs.",
 
     "baleraortica-title": "La Balera dell'Ortica",
     "baleraortica-period": "March 2022 — September 2022",
     "baleraortica-position": "Full Stack Developer",
-    "baleraortica-description": "Developed a booking platform improving operations and user experience.",
+    "baleraortica-description": "Designed and developed a booking platform for dance class management, improving operational organization and user experience.",
 
     "brainfarm-title": "BRAINFARM Soc. Coop.",
     "brainfarm-period": "June 2021 — October 2021",
     "brainfarm-position": "Help Desk Technician",
-    "brainfarm-description": "Provided technical support and maintenance.",
+    "brainfarm-description": "Provided first-level technical support, hardware and software maintenance, and operational issue handling, ensuring continuity of IT services.",
 
     "studiolarosadance-title": "Studio Larosa Dance",
     "studiolarosadance-period": "December 2019 — September 2020",
     "studiolarosadance-position": "Full Stack Developer",
-    "studiolarosadance-description": "Developed website and booking platform.",
+    "studiolarosadance-description": "Developed a company website and later integrated a booking platform, improving service accessibility and customer request management.",
 
     "hes-title": "H&S Qualità nel Software S.P.A.",
     "hes-period": "July 2018 — September 2018",
     "hes-position": "Full Stack Developer",
-    "hes-description": "Developed CRM solutions using C#, ASP.NET, Xamarin, and SQL.",
+    "hes-description": "Developed custom CRM solutions for different business workflows using C#, ASP.NET, Xamarin, and SQL, working across frontend, backend, and database layers.",
 
     "amada-title": "AMADA S.P.A.",
     "amada-period": "May 2017 — June 2017",
     "amada-position": "Software Developer",
-    "amada-description": "Developed a web platform in C# for spare parts management."
+    "amada-description": "Developed a web platform in C# for managing spare parts for company products, with a focus on data organization, internal process support, and operational efficiency."
   },
 
   "skill": {
@@ -105,25 +113,25 @@
     "sub": "Technologies used in web application and software development",
 
     "angular-title": "Angular",
-    "angular-description": "Development of complex single-page applications using Angular, including modular architecture, state management, advanced routing, and performance optimization. Experience building scalable and maintainable front-end architectures.",
+    "angular-description": "Development of complex single-page applications with Angular, using modular architecture, reusable components, advanced routing, state management, and performance optimization. Experience designing scalable, maintainable, and well-structured front-end solutions for real-world applications.",
 
     "vue-title": "Vue.js",
-    "vue-description": "Development of reactive web applications using component-based architecture with a focus on usability and performance.",
+    "vue-description": "Development of reactive web applications based on component-driven architecture, with efficient state handling and dynamic interfaces focused on usability, performance, and architectural clarity.",
 
     "flutter-title": "Flutter",
-    "flutter-description": "Cross-platform mobile and web application development with shared codebase, focusing on performance and consistent UI.",
+    "flutter-description": "Cross-platform mobile and web application development with a shared codebase, delivering consistent, high-performance interfaces across different platforms.",
 
     "csharp-title": "C#",
-    "csharp-description": "Application development using C# and .NET across web, desktop, and mobile environments. Experience with object-oriented programming, Entity Framework, and complex business logic implementation.",
+    "csharp-description": "Application development with C# and .NET across web, desktop, and mobile environments. Experience designing application logic, object-oriented solutions, database integration through Entity Framework, and software built for robustness and maintainability.",
 
     "laravel-title": "Laravel",
-    "laravel-description": "Backend development and REST API implementation with authentication and data management.",
+    "laravel-description": "Backend development and REST API implementation with authentication, data access, and clean application structure.",
 
     "python-title": "Python",
-    "python-description": "Used for scripting, backend services, and data processing, including computer vision applications.",
+    "python-description": "Used for scripting, backend development, and applications related to data processing, automation, and computer vision.",
 
     "sql-title": "SQL",
-    "sql-description": "Design and management of relational databases (MySQL, SQL Server, SQLite). Experience with advanced queries, stored procedures, functions and views."
+    "sql-description": "Design and management of relational databases in MySQL, SQL Server, and SQLite. Experience with advanced queries, stored procedures, functions, views, data modeling, and database structures supporting business-oriented applications."
   },
 
   "certification": {
@@ -135,52 +143,52 @@
     "az104-title": "AZ-104: Microsoft Azure Administrator",
     "az104-dates": "March 2024",
     "az104-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
-    "az104-description": "Azure administration skills.",
+    "az104-description": "Skills in managing Azure environments, including networking, storage, identity, monitoring, and security.",
 
     "az900-title": "AZ-900: Microsoft Azure Fundamentals",
     "az900-dates": "March 2023",
     "az900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
-    "az900-description": "Cloud fundamentals.",
+    "az900-description": "Foundational knowledge of cloud computing, Azure services, security, compliance, and pricing models.",
 
-    "sc900-title": "SC-900: Security, Compliance, and Identity",
+    "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
     "sc900-dates": "November 2021",
     "sc900-url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals",
-    "sc900-description": "Security fundamentals.",
+    "sc900-description": "Fundamentals of security, identity, and compliance within the Microsoft ecosystem.",
 
-    "ai900-title": "AI-900: Azure AI Fundamentals",
+    "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
     "ai900-dates": "April 2021",
     "ai900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
-    "ai900-description": "AI fundamentals."
+    "ai900-description": "Fundamentals of artificial intelligence and machine learning applied to Azure services."
   },
 
   "project": {
     "label": "PROJECTS",
     "title": "Projects",
-    "sub": "Projects showcasing real-world software development, system design, and complex problem solving",
+    "sub": "Projects representing practical experience in software development, technology integration, and solving complex problems",
 
     "project-collecchio-name": "Barriers of Collecchio",
-    "project-collecchio-description": "Developed a cross-platform mobile application (iOS and Android) designed to improve urban accessibility by allowing users to report and classify architectural barriers. The project integrates computer vision models using TensorFlow Lite for automatic image analysis and risk categorization. Built with Flutter using a scalable architecture and local data management.",
+    "project-collecchio-description": "Developed a cross-platform mobile application (iOS and Android) designed to improve urban accessibility by allowing users to report and classify architectural barriers. The project integrates computer vision models through TensorFlow Lite for automatic image analysis and risk categorization. Built with Flutter using local data management and a scalability-oriented architecture.",
     "project-collecchio-url": "",
     "project-collecchio-technology-1": "Flutter",
     "project-collecchio-technology-2": "TensorFlow Lite",
     "project-collecchio-technology-3": "SQLite",
 
     "project-piacenza-ar-name": "Piacenza AR",
-    "project-piacenza-ar-description": "Developed an augmented reality application for the tourism sector based on 3D models of city landmarks. The project combines Unity, Vuforia, and Google Earth to create an interactive system capable of overlaying digital content onto the real world, delivering an immersive user experience.",
+    "project-piacenza-ar-description": "Developed an augmented reality application for the tourism sector, based on 3D models of key city landmarks. The project combines Unity, Vuforia, and Google Earth to create an interactive system capable of overlaying digital content onto the real-world context, delivering an immersive and informative user experience.",
     "project-piacenza-ar-url": "",
     "project-piacenza-ar-technology-1": "Unity",
     "project-piacenza-ar-technology-2": "Vuforia",
     "project-piacenza-ar-technology-3": "Google Earth",
 
     "project-armatamente-20-name": "Armatamente 2.0",
-    "project-armatamente-20-description": "Recovered and fully rebuilt the ARMATAMENTE project website, which had been previously lost. The work included content restructuring, redesign of the site architecture, and deployment, improving accessibility and usability.",
+    "project-armatamente-20-description": "Recovered and fully rebuilt the ARMATAMENTE project website, which had previously been lost. The work included content restructuring, redesign of the site architecture, and online deployment, with the goal of improving accessibility, information structure, and overall content usability.",
     "project-armatamente-20-url": "",
     "project-armatamente-20-technology-1": "HTML",
     "project-armatamente-20-technology-2": "JavaScript",
     "project-armatamente-20-technology-3": "CSS",
 
     "project-museo-3d-name": "Museum 3D",
-    "project-museo-3d-description": "Designed and developed a fully explorable 3D environment for interactive historical content visualization. Built using Unity and C#, the system allows users to navigate and interact with dynamic content. The project received recognition for innovation and gained international visibility (EUSTORY network).",
+    "project-museo-3d-description": "Designed and developed a fully explorable 3D environment for the interactive representation of historical content. Built with Unity and C#, the system allows users to navigate the virtual space and trigger dynamic content through interactions. The project was recognized for its high level of innovation and also gained international visibility through the EUSTORY network.",
     "project-museo-3d-url": "",
     "project-museo-3d-technology-1": "Unity",
     "project-museo-3d-technology-2": "C#"
