@@ -287,6 +287,7 @@ export class NavbarComponent {
   selectedLang = signal(this.translocoService.getActiveLang());
 
   navLinks = [
+    { fragment: 'about', labelKey: 'nav.about' },
     { fragment: 'skills', labelKey: 'nav.skills' },
     { fragment: 'experience', labelKey: 'nav.experience' },
     { fragment: 'education', labelKey: 'nav.education' },

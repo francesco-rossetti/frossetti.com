@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavbarComponent } from '../../layout/navbar/navbar.component';
 import { FooterComponent } from '../../layout/footer/footer.component';
 import { HeroComponent } from '../../sections/hero/hero.component';
+import { AboutComponent } from '../../sections/about/about.component';
 import { SkillsComponent } from '../../sections/skills/skills.component';
 import { ExperienceComponent } from '../../sections/experience/experience.component';
 import { EducationComponent } from '../../sections/education/education.component';
@@ -14,6 +15,7 @@ import { ProjectsComponent } from '../../sections/projects/projects.component';
   imports: [
     NavbarComponent,
     HeroComponent,
+    AboutComponent,
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
@@ -25,6 +27,7 @@ import { ProjectsComponent } from '../../sections/projects/projects.component';
     <app-navbar />
     <main id="main-content">
       <app-hero />
+      <app-about />
       <app-skills />
       <app-experience />
       <app-education />

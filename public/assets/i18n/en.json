@@ -8,11 +8,33 @@
 
   "nav": {
     "home": "Home",
+    "about": "About",
     "skills": "Skills",
     "experience": "Experience",
     "education": "Education",
     "certifications": "Certifications",
     "projects": "Projects"
+  },
+
+  "about": {
+    "label": "ABOUT",
+    "title": "Professional Profile",
+    "jobTitle": "Full Stack Developer",
+    "summary": "Full Stack Developer with 7+ years of experience designing and building web and mobile applications. Specialized in scalable architectures using Angular, Vue.js, and .NET, I have collaborated with companies across different industries to improve business processes, code quality, and user experience. Microsoft Azure certified, I approach every project with an engineering mindset focused on maintainability and performance.",
+    "yearsValue": "7+",
+    "yearsLabel": "Years of Experience",
+    "certsValue": "4",
+    "certsLabel": "Microsoft Certifications",
+    "stackValue": "10+",
+    "stackLabel": "Technologies Mastered",
+    "kwAngular": "Angular",
+    "kwDotNet": ".NET / C#",
+    "kwVue": "Vue.js",
+    "kwFlutter": "Flutter",
+    "kwAzure": "Microsoft Azure",
+    "kwRest": "REST API",
+    "kwSql": "SQL / Database",
+    "kwGit": "Git / CI-CD"
   },
 
   "footer": {
