@@ -33,9 +33,9 @@ import { TagModule } from 'primeng/tag';
               <div class="bento-content">
                 <div class="project-card__header">
                   <i class="pi pi-folder-open project-card__icon" aria-hidden="true"></i>
-                  @if (t(project.url).trim()) {
+                  @if (resolvedProjectUrl(project.url, t(project.url))) {
                     <a
-                      [href]="t(project.url)"
+                      [href]="resolvedProjectUrl(project.url, t(project.url))"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="project-card__ext-link"
@@ -67,8 +67,6 @@ import { TagModule } from 'primeng/tag';
     .projects-section {
       position: relative;
     }
-
-
 
     .project-card {
       padding: 32px;
@@ -144,6 +142,16 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.getProjects().subscribe((data) => this.projects.set(data));
+  }
+
+  resolvedProjectUrl(urlKey: string, translatedUrl: string): string | null {
+    const normalizedUrl = translatedUrl?.trim();
+
+    if (!normalizedUrl || normalizedUrl === urlKey) {
+      return null;
+    }
+
+    return normalizedUrl;
   }
 
   getBentoClass(index: number): string {

@@ -20,14 +20,14 @@
   "about": {
     "label": "CHI SONO",
     "title": "Profilo Professionale",
-    "jobTitle": "Full Stack Developer",
+    "jobTitle": "Sviluppatore Full Stack",
     "summary": "Sviluppatore Full Stack con oltre 7 anni di esperienza nello sviluppo di applicazioni web e mobile. Specializzato in Angular, .NET/C# e SQL, progetto e realizzo soluzioni scalabili, performanti e manutenibili. Ho lavorato su frontend complessi, backend applicativi e database relazionali, contribuendo all’evoluzione di prodotti software e processi aziendali.",
     "yearsValue": "7+",
     "yearsLabel": "Anni di Esperienza",
     "certsValue": "4",
     "certsLabel": "Certificazioni Microsoft",
     "stackValue": "3",
-    "stackLabel": "Core Technologies",
+    "stackLabel": "Tecnologie Chiave",
     "kwAngular": "Angular",
     "kwDotNet": ".NET / C#",
     "kwVue": "Vue.js",
@@ -69,7 +69,7 @@
   "experience": {
     "label": "ESPERIENZE",
     "title": "Esperienze",
-    "sub": "Esperienza nello sviluppo di applicazioni web e sistemi software",
+    "sub": "Esperienza nello sviluppo di applicazioni web, sistemi backend e soluzioni software",
 
     "ePol-title": "e-Pol S.R.L.",
     "ePol-period": "Ottobre 2024 — Presente",
@@ -110,7 +110,7 @@
   "skill": {
     "label": "SKILLS",
     "title": "Competenze",
-    "sub": "Tecnologie utilizzate nello sviluppo di applicazioni web e sistemi software",
+    "sub": "Tecnologie e strumenti utilizzati per progettare, sviluppare e mantenere applicazioni moderne",
 
     "angular-title": "Angular",
     "angular-description": "Sviluppo di applicazioni single-page complesse con Angular, utilizzando architettura modulare, componenti riutilizzabili, routing avanzato, state management e ottimizzazione delle performance. Esperienza nella progettazione di frontend scalabili, manutenibili e strutturati per contesti applicativi reali.",
